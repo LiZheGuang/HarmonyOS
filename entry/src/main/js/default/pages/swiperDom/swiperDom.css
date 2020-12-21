@@ -1,0 +1,44 @@
+/* xxx.css */
+.container {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.swiper {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000000;
+    indicator-color: #ffffff;
+    indicator-selected-color:#000000;
+    indicator-size: 14px;
+    indicator-bottom: 20px;
+    indicator-right: 30px;
+
+}
+.swiperContent {
+    height: 100%;
+    justify-content: center;
+    position: relative;
+}
+.button {
+/*    width: 70%;*/
+/*    margin: 10px;*/
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+/*    padding: 24px;*/
+    text-color:#ff007dff;
+    width: 150px;
+    height: 50px;
+}
+.text {
+    font-size: 40px;
+}
+.swiperContent .img{
+    object-fit: cover;
+}
+

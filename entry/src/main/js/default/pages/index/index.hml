@@ -1,6 +1,6 @@
 <list class="list">
     <list-item type="listItem" for="{{textList}}" >
         <text class="desc-text">{{$item.value}}</text>
-        <button type="capsule" value="Go to the second page" class="button" onclick="clickNextPage"></button>
+        <button type="capsule" value="路由跳转" class="button" onclick="clickNextPage"></button>
     </list-item>
 </list>

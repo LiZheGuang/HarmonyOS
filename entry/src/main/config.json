@@ -49,6 +49,7 @@
     "js": [
       {
         "pages": [
+          "pages/swiperDom/swiperDom",
           "pages/index/index",
           "pages/detail/detail"
         ],
