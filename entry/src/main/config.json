@@ -17,7 +17,8 @@
     "package": "com.example.myapplication",
     "name": ".MyApplication",
     "deviceType": [
-      "tv"
+      "tv",
+      "phone"
     ],
     "distro": {
       "deliveryWithInstall": true,
@@ -41,13 +42,15 @@
         "description": "$string:mainability_description",
         "label": "MyApplication",
         "type": "page",
-        "launchType": "standard"
+        "launchType": "standard",
+        "visible": true
       }
     ],
     "js": [
       {
         "pages": [
-          "pages/index/index"
+          "pages/index/index",
+          "pages/detail/detail"
         ],
         "name": "default",
         "window": {

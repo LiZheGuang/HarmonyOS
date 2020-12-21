@@ -11,12 +11,5 @@ export default {
     },
     onInit() {
         this.title = this.$t('strings.world');
-    },
-    clickNextPage(){
-        console.log('tiaozhuan');
-        router.push ({
-            uri: 'pages/detail/detail',
-        });
-
     }
 }

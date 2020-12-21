@@ -1,5 +1,6 @@
-<div class="container">
-    <text class="title">
-        {{ $t('strings.hello') }} {{title}}
-    </text>
-</div>
+<list class="list">
+    <list-item type="listItem" for="{{textList}}" >
+        <text class="desc-text">{{$item.value}}</text>
+        <button type="capsule" value="Go to the second page" class="button" onclick="clickNextPage"></button>
+    </list-item>
+</list>

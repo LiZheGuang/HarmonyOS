@@ -1,0 +1,5 @@
+<list class="list">
+  <list-item type="listItem" for="{{textList}}" >
+    <text class="desc-text">{{$item.value}}</text>
+  </list-item>
+</list>
