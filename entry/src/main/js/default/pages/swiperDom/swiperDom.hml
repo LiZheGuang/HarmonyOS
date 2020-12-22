@@ -3,7 +3,7 @@
     <swiper class="swiper" id="swiper" index="0" indicator="true" loop="true" digital="false"  >
         <div class = "swiperContent"  for="{{imageAll}}">
             <image class="img" src="{{$item.path}}"></image>
-            <button class="button" type="capsule" value="PLAY"></button>
+            <button class="button" type="capsule" value="PLAY" onclick="clickPlayVideo"></button>
         </div>
     </swiper>
 </div>

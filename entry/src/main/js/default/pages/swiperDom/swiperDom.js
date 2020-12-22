@@ -1,5 +1,7 @@
 // xxx.js
 import device from '@system.device';
+import router from '@system.router';
+
 export default {
     data: {
         middleImage: '/common/tyk.7503bf3.png',
@@ -16,5 +18,10 @@ export default {
             path:'/common/kcjs.de82966.png',
             value:''
         }]
-    }
+    },
+    clickPlayVideo(){
+        router.push ({
+            uri: 'pages/videoOnion/videoOnion',
+        });
+    },
 }
