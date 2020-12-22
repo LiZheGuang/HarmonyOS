@@ -1,4 +1,4 @@
-###Harmonyos 应用开发
+### Harmonyos 应用开发
 
 * 官方社区
 * HarmonyOS应用开发常见问题FAQ-JS UI开发
