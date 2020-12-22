@@ -16,6 +16,10 @@
   "module": {
     "package": "com.example.myapplication",
     "name": ".MyApplication",
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"}
+    ],
     "deviceType": [
       "tv",
       "phone"
@@ -51,7 +55,8 @@
         "pages": [
           "pages/swiperDom/swiperDom",
           "pages/index/index",
-          "pages/detail/detail"
+          "pages/detail/detail",
+          "pages/videoOnion/videoOnion"
         ],
         "name": "default",
         "window": {

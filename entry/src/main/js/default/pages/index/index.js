@@ -18,5 +18,4 @@ export default {
             uri: 'pages/detail/detail',
         });
 
-    }
-}
+    }}

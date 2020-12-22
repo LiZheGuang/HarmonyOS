@@ -1,27 +1,9 @@
 <!-- xxx.hml -->
 <div class="container">
-    <swiper class="swiper" id="swiper" index="0" indicator="true" loop="true" digital="false">
-        <div class = "swiperContent" >
-            <image class="img" src="{{middleImage}}"></image>
-            <button class="button" type="capsule" value="PLAY" onclick="clickGetConfig"></button>
-        </div>
-        <div class = "swiperContent">
-            <image  class="img" src="{{middleImageTwo}}"></image>
+    <swiper class="swiper" id="swiper" index="0" indicator="true" loop="true" digital="false"  >
+        <div class = "swiperContent"  for="{{imageAll}}">
+            <image class="img" src="{{$item.path}}"></image>
             <button class="button" type="capsule" value="PLAY"></button>
-
-        </div>
-        <div class = "swiperContent">
-            <image class="img" src="{{middleImage}}"></image>
-            <button class="button" type="capsule" value="PLAY"></button>
-
-        </div>
-        <div class = "swiperContent">
-            <image class="img" src="{{middleImageTwo}}"></image>
-            <button class="button" type="capsule" value="PLAY"></button>
-
         </div>
     </swiper>
-<!--    <input class="button" type="button" value="swipeTo" onclick="swipeTo"></input>-->
-<!--    <input class="button" type="button" value="showNext" onclick="showNext"></input>-->
-<!--    <input class="button" type="button" value="showPrevious" onclick="showPrevious"></input>-->
 </div>
